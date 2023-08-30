@@ -1,2 +1,52 @@
 # RMS
-本地隧道、数据压缩、加密、公网连接数压缩的强大本地客户端，极限降低延迟，防止中间人攻击, 最大限度提升安全性及矿场利润。 Powerful local client for local tunnel, data compression, encryption, and public network connection number compression can limit the delay, prevent Man-in-the-middle attack, and maximize security and mine profits.
+
+### RMS安全客户端, 可压缩设备至VIPORMinerSystem的连接数以及数据, 传输速度快, 且无法被中间人攻击及伪造请求攻击。
+
+
+# Linux安装
+
+## 运行以下命令根据提示安装
+
+#### 线路1（github官方地址, 如无法访问请使用其他线路）:
+
+```sh
+bash <(curl -s -L https://raw.githubusercontent.com/TLSminer/RMS/main/install.sh)
+```
+
+#### 线路2:
+
+```sh
+bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/TLSminer/RMS@main/install.sh)
+```
+
+#### 线路3:
+
+```sh
+bash <(curl -s -L -k https://raw.yzuu.cf/TLSminer/RMS/main/install.sh)
+```
+
+#### 线路4:
+
+```sh
+bash <(curl -s -L -k https://raw.nuaa.cf/TLSminer/RMS/main/install.sh)
+```
+
+# WINDOWS安装
+
+## 带有图形化界面的客户端
+
+#### 下载地址
+```sh
+https://github.com/TLSminer/RMS/raw/main/windows-gui/rms.exe
+```
+
+#### 图形化界面版本打开如果白屏闪退，请安装webview2, 下载地址
+```sh
+https://github.com/TLSminer/RMS/raw/main/windows-gui/MicrosoftEdgeWebview2Setup.exe
+```
+
+## 非图形化windows客户端（命令行）
+
+```sh
+https://github.com/TLSminer/RMS/raw/main/windows-no-gui/rms.exe
+```
