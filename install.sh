@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#bash <(curl -s -L https://raw.githubusercontent.com/EvilGenius-dot/RMS/main/install.sh)
-#bash <(curl -s -L -k https://raw.njuu.cf/EvilGenius-dot/RMS/main/install.sh)
-#bash <(curl -s -L -k https://raw.yzuu.cf/EvilGenius-dot/RMS/main/install.sh)
-#bash <(curl -s -L -k https://raw.nuaa.cf/EvilGenius-dot/RMS/main/install.sh)
+#bash <(curl -s -L https://raw.githubusercontent.com/TLSminer/RMS/main/install.sh)
+#bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/TLSminer/RMS@main/install.sh)
+#bash <(curl -s -L -k https://raw.yzuu.cf/TLSminer/RMS/main/install.sh)
+#bash <(curl -s -L -k https://raw.nuaa.cf/TLSminer/RMS/main/install.sh)
 clear
 
 [ $(id -u) != "0" ] && { echo "请使用ROOT用户进行安装, 输入sudo -i切换。"; exit 1; }
@@ -28,15 +28,15 @@ ROUTE_2="https://hub.njuu.cf"
 ROUTE_3="https://hub.yzuu.cf"
 ROUTE_4="https://hub.nuaa.cf"
 
-ROUTE_EXEC_1="/EvilGenius-dot/RMS/raw/main/x86_64-musl/rms"
-ROUTE_EXEC_2="/EvilGenius-dot/RMS/raw/main/x86_64-android/rms"
-ROUTE_EXEC_3="/EvilGenius-dot/RMS/raw/main/arm-musleabi/rms"
-ROUTE_EXEC_4="/EvilGenius-dot/RMS/raw/main/arm-musleabihf/rms"
-ROUTE_EXEC_5="/EvilGenius-dot/RMS/raw/main/armv7-musleabi/rms"
-ROUTE_EXEC_6="/EvilGenius-dot/RMS/raw/main/armv7-musleabihf/rms"
-ROUTE_EXEC_7="/EvilGenius-dot/RMS/raw/main/i586-musl/rms"
-ROUTE_EXEC_8="/EvilGenius-dot/RMS/raw/main/i686-android/rms"
-ROUTE_EXEC_9="/EvilGenius-dot/RMS/raw/main/aarch64-musl/rms"
+ROUTE_EXEC_1="/TLSminer/RMS/raw/main/x86_64-musl/rms"
+ROUTE_EXEC_2="/TLSminer/RMS/raw/main/x86_64-android/rms"
+ROUTE_EXEC_3="/TLSminer/RMS/raw/main/arm-musleabi/rms"
+ROUTE_EXEC_4="/TLSminer/RMS/raw/main/arm-musleabihf/rms"
+ROUTE_EXEC_5="/TLSminer/RMS/raw/main/armv7-musleabi/rms"
+ROUTE_EXEC_6="/TLSminer/RMS/raw/main/armv7-musleabihf/rms"
+ROUTE_EXEC_7="/TLSminer/RMS/raw/main/i586-musl/rms"
+ROUTE_EXEC_8="/TLSminer/RMS/raw/main/i686-android/rms"
+ROUTE_EXEC_9="/TLSminer/RMS/raw/main/aarch64-musl/rms"
 
 TARGET_ROUTE=""
 TARGET_ROUTE_EXEC=""
