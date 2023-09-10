@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 #bash <(curl -s -L https://raw.githubusercontent.com/TLSminer/RMS/main/install.sh)
 #bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/TLSminer/RMS@main/install.sh)
