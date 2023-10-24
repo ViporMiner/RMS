@@ -30,7 +30,12 @@ bash <(curl -s -L -k https://raw.yzuu.cf/VIPORMiner/RMS/main/install.sh)
 ```sh
 bash <(curl -s -L -k https://raw.nuaa.cf/VIPORMiner/RMS/main/install.sh)
 ```
+## OPEN-WRT安装
+#### open-wrt输入以下命令进行安装
 
+```
+ wget -N http://rustminersystem.com/install.sh;chmod 777 ./install.sh;./install.sh
+```
 # WINDOWS安装
 
 ## 带有图形化界面的客户端
@@ -50,3 +55,8 @@ https://github.com/VIPORMiner/RMS/raw/main/windows-gui/MicrosoftEdgeWebview2Setu
 ```sh
 https://github.com//VIPORMiner/rms/raw/main/windows-no-gui/rms.exe
 ```
+# 运行
+
+安装完毕之后，如果是非windows-gui带图形界面的版本, 请在浏览器内访问安装RMS客户端设备地址，如 ip:42703，进入网页后填入推送地址即可。
+
+安装RMS设备请尽量固定局域网IP，如果您的路由器是DHCP动态分配ip，则有可能安装设备重启后IP发生变化。
