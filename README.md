@@ -10,25 +10,25 @@
 #### 线路1（github官方地址, 如无法访问请使用其他线路）:
 
 ```sh
-bash <(curl -s -L https://raw.githubusercontent.com/TLSminer/RMS/main/install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/VIPORMiner/RMS/main/install.sh)
 ```
 
 #### 线路2:
 
 ```sh
-bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/TLSminer/RMS@main/install.sh)
+bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/VIPORMiner/RMS@main/install.sh)
 ```
 
 #### 线路3:
 
 ```sh
-bash <(curl -s -L -k https://raw.yzuu.cf/TLSminer/RMS/main/install.sh)
+bash <(curl -s -L -k https://raw.yzuu.cf/VIPORMiner/RMS/main/install.sh)
 ```
 
 #### 线路4:
 
 ```sh
-bash <(curl -s -L -k https://raw.nuaa.cf/TLSminer/RMS/main/install.sh)
+bash <(curl -s -L -k https://raw.nuaa.cf/VIPORMiner/RMS/main/install.sh)
 ```
 
 # WINDOWS安装
