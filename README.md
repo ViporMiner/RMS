@@ -48,5 +48,5 @@ https://github.com/VIPORMiner/RMS/raw/main/windows-gui/MicrosoftEdgeWebview2Setu
 ## 非图形化windows客户端（命令行）
 
 ```sh
-https://github.com//RVIPORMinerMS/raw/main/windows-no-gui/rms.exe
+https://github.com//VIPORMinerMS/raw/main/windows-no-gui/rms.exe
 ```
