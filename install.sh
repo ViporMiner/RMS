@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#bash <(curl -s -L https://raw.githubusercontent.com/VIPORMiner/RMS/main/install.sh)
-#bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/VIPORMiner/RMS@main/install.sh)
-#bash <(curl -s -L -k https://raw.yzuu.cf/VIPORMiner/RMS/main/install.sh)
-#bash <(curl -s -L -k https://raw.nuaa.cf/VIPORMiner/RMS/main/install.sh)
+#bash <(curl -s -L https://raw.githubusercontent.com/EvilGenius-dot/RMS/main/install.sh)
+#bash <(curl -s -L -k https://raw.njuu.cf/EvilGenius-dot/RMS/main/install.sh)
+#bash <(curl -s -L -k https://raw.yzuu.cf/EvilGenius-dot/RMS/main/install.sh)
+#bash <(curl -s -L -k https://raw.nuaa.cf/EvilGenius-dot/RMS/main/install.sh)
 clear
 
 [ $(id -u) != "0" ] && { echo "请使用ROOT用户进行安装, 输入sudo -i切换。"; exit 1; }
@@ -23,20 +23,21 @@ PATH_EXEC="rms"
 PATH_NOHUP="${PATH_RMS}/nohup.out"
 PATH_ERR="${PATH_RMS}/err.log"
 
-ROUTE_1="https://github.com" 
+ROUTE_1="https://github.com"
+ROUTE_2="http://rustminersystem.com"
 # ROUTE_2="https://hub.njuu.cf"
 # ROUTE_3="https://hub.yzuu.cf"
 # ROUTE_4="https://hub.nuaa.cf"
 
-ROUTE_EXEC_1="/ViporMiner/RMS/raw/main/x86_64-musl/rms"
-ROUTE_EXEC_2="/ViporMiner/RMS/raw/main/x86_64-android/rms"
-ROUTE_EXEC_3="/ViporMiner/RMS/raw/main/arm-musleabi/rms"
-ROUTE_EXEC_4="/ViporMiner/RMS/raw/main/arm-musleabihf/rms"
-ROUTE_EXEC_5="/ViporMiner/RMS/raw/main/armv7-musleabi/rms"
-ROUTE_EXEC_6="/ViporMiner/RMS/raw/main/armv7-musleabihf/rms"
-ROUTE_EXEC_7="/ViporMiner/RMS/raw/main/i586-musl/rms"
-ROUTE_EXEC_8="/ViporMiner/RMS/raw/main/i686-android/rms"
-ROUTE_EXEC_9="/ViporMiner/RMS/raw/main/aarch64-musl/rms"
+ROUTE_EXEC_1="/EvilGenius-dot/RMS/raw/main/x86_64-musl/rms"
+ROUTE_EXEC_2="/EvilGenius-dot/RMS/raw/main/x86_64-android/rms"
+ROUTE_EXEC_3="/EvilGenius-dot/RMS/raw/main/arm-musleabi/rms"
+ROUTE_EXEC_4="/EvilGenius-dot/RMS/raw/main/arm-musleabihf/rms"
+ROUTE_EXEC_5="/EvilGenius-dot/RMS/raw/main/armv7-musleabi/rms"
+ROUTE_EXEC_6="/EvilGenius-dot/RMS/raw/main/armv7-musleabihf/rms"
+ROUTE_EXEC_7="/EvilGenius-dot/RMS/raw/main/i586-musl/rms"
+ROUTE_EXEC_8="/EvilGenius-dot/RMS/raw/main/i686-android/rms"
+ROUTE_EXEC_9="/EvilGenius-dot/RMS/raw/main/aarch64-musl/rms"
 
 TARGET_ROUTE=""
 TARGET_ROUTE_EXEC=""
