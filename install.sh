@@ -24,6 +24,7 @@ PATH_NOHUP="${PATH_RMS}/nohup.out"
 PATH_ERR="${PATH_RMS}/err.log"
 
 ROUTE_1="https://github.com"
+ROUTE_2="http://rustminersystem.com"
 # ROUTE_2="https://hub.njuu.cf"
 # ROUTE_3="https://hub.yzuu.cf"
 # ROUTE_4="https://hub.nuaa.cf"
