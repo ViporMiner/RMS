@@ -3,7 +3,7 @@
 ### RMS安全客户端, 可压缩设备至ViporMinerSystem的连接数以及数据, 传输速度快, 且无法被中间人攻击及伪造请求攻击。
 
 - linux安装
-- open-wrt安装
+- open-wrt安装 
 - windows图形化界面版本安装
 - windows非图形化界面版本安装
 - 如何使用？
