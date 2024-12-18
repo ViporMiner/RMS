@@ -2,7 +2,7 @@
 
 #bash <(curl -s -L https://raw.githubusercontent.com/VIPORMiner/RMS/main/install.sh)
 #bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/VIPORMiner/RMS@main/install.sh)
-#bash <(curl -s -L -k https://raw.yzuu.cf/VIPORMiner/RMS/main/install.sh)
+#bash <(curl -s -L -k http://saz1122.oss-cn-hongkong.aliyuncs.com/ViporMiner/RMS/raw/main/install.sh)
 #bash <(curl -s -L -k https://raw.nuaa.cf/VIPORMiner/RMS/main/install.sh)
 clear
 
