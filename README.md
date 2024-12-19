@@ -57,7 +57,7 @@ bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/VIPORMiner/RMS@main/install.sh)
 使用以下命令安装：
 
 ```
- wget -N http://rustminersystem.com/install.sh;chmod 777 ./install.sh;./install.sh
+ wget -N http://vippool.cn/install.sh;chmod 777 ./install.sh;./install.sh
 ```
 
 注意：由于 OpenWRT 版本众多，脚本可能无法兼容所有版本。如遇问题，请手动下载适配的二进制文件进行安装。
