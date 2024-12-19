@@ -41,12 +41,17 @@ RMS 安全客户端具备以下特点：
 bash <(curl -s -L https://raw.githubusercontent.com/VIPORMiner/RMS/main/install.sh)
 ```
 
-- 线路2：
+- 线路2：（国内线路）
+
+```
+bash <(curl -s -L -k https://vippool.cn/install.sh)
+```
+
+- 线路3（备用国内线路）：
 
 ```
 bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/VIPORMiner/RMS@main/install.sh)
 ```
-
 ## OpenWRT 安装
 
 使用以下命令安装：
