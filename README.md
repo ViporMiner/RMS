@@ -77,6 +77,34 @@ bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/VIPORMiner/RMS@main/install.sh)
 - 下载地址：  
     https://github.com//VIPORMiner/rms/raw/main/windows-no-gui/rms.exe
 
+## 旧版RMS2安装
+
+运行以下命令即可安装旧版RMS2：
+
+- 线路1（GitHub 官方地址，若无法访问请使用其他线路）：
+
+```
+bash <(curl -s -L https://raw.githubusercontent.com/VIPORMiner/RMS/main/OLD_2/install.sh)
+```
+
+- 线路2：
+
+```
+bash <(curl -s -L -k https://vippool.cn/OLD_2/install.sh)
+```
+
+### 旧版RMS2图形化界面版本
+- 下载地址：  
+    https://github.com/VIPORMiner/RMS/raw/main/OLD_2/windows-gui/rms.exe
+
+- 如遇白屏问题，请安装 WebView2：  
+  https://github.com/VIPORMiner/RMS/raw/main/windows-gui/MicrosoftEdgeWebview2Setup.exe
+
+### 非图形化命令行版本
+- 下载地址：  
+    https://github.com//VIPORMiner/rms/raw/main/OLD_2/windows-no-gui/rms.exe
+
+
 # 使用指南
 
 ### 如何使用？
