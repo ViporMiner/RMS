@@ -90,7 +90,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/VIPORMiner/RMS/main/OLD_2/in
 - 线路2：
 
 ```
-bash <(curl -s -L -k https://vippool.cn/OLD_2/install.sh)
+bash <(curl -s -L -k https://vippool.cn/OLD2_install.sh)
 ```
 
 ### 旧版RMS2图形化界面版本
